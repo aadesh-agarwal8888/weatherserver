@@ -1,6 +1,6 @@
-Flask==2.0.2
-Werkzeug==2.0.2
-pymongo==3.12.1
+Flask
+Werkzeug
+pymongo
 flask-cors
 requests
 gunicorn
