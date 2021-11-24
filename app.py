@@ -10,6 +10,10 @@ collection = db["users"]
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def root():
+    return "hello"
+
 @app.route('/weather', methods = ["POST"])
 def get_weather():
     request_data = request.get_json()
